@@ -1,0 +1,46 @@
+[gd_scene load_steps=10 format=3 uid="uid://dhhs5i6cemsvr"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_oihgk"]
+[ext_resource type="PackedScene" uid="uid://ch21c4wgfefde" path="res://coin.tscn" id="2_qmmr3"]
+[ext_resource type="Texture2D" uid="uid://0nryyiid4hb8" path="res://assets/grass.png" id="3_qdjej"]
+[ext_resource type="PackedScene" uid="uid://dl5rtdyr4aevn" path="res://cactus.tscn" id="3_uwi06"]
+[ext_resource type="PackedScene" uid="uid://clgx4efr7fdvg" path="res://player.tscn" id="4_gg74d"]
+[ext_resource type="PackedScene" uid="uid://dw488655hyaba" path="res://hud.tscn" id="5_o57ns"]
+[ext_resource type="AudioStream" uid="uid://du2gspgs17de6" path="res://assets/audio/Coin.wav" id="6_nnd6w"]
+[ext_resource type="AudioStream" uid="uid://c371ged6hcc2b" path="res://assets/audio/Level.wav" id="7_ehwq6"]
+[ext_resource type="AudioStream" uid="uid://bgvryo6y8aowd" path="res://assets/audio/EndSound.wav" id="8_pvfyj"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_oihgk")
+coin_scene = ExtResource("2_qmmr3")
+cactus_scene = ExtResource("3_uwi06")
+
+[node name="Background" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 480.0
+offset_bottom = 720.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("3_qdjej")
+
+[node name="Player" parent="." instance=ExtResource("4_gg74d")]
+
+[node name="GameTimer" type="Timer" parent="."]
+
+[node name="HUD" parent="." instance=ExtResource("5_o57ns")]
+
+[node name="CoinSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_nnd6w")
+
+[node name="LevelSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_ehwq6")
+
+[node name="EndSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("8_pvfyj")
+
+[connection signal="hurt" from="Player" to="." method="_on_player_hurt"]
+[connection signal="pickup" from="Player" to="." method="_on_player_pickup"]
+[connection signal="timeout" from="GameTimer" to="." method="_on_game_timer_timeout"]
+[connection signal="start_game" from="HUD" to="." method="_on_hud_start_game"]
