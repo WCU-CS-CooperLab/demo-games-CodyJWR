@@ -1,4 +1,4 @@
-# GamePublish
+# Cody's game room
 A template repository to publish games
 
-[Helper Files](helper_files)
+[Me dash finished](CR_me_dash/)
