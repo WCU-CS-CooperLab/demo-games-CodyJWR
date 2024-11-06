@@ -9,3 +9,6 @@ A template repository to publish games
 
 # Zombie Survival
 [Zombie Survival](zombie-survival)
+
+# Infinite flyer
+[Infinite Flyer](infinite-flyer)
