@@ -12,3 +12,6 @@ A template repository to publish games
 
 # Infinite flyer
 [Infinite Flyer](infinite-flyer)
+
+# Stone Bridge Escapades
+[Stone Bridge Escapades](Stone_Bridge_Escapade_Project)

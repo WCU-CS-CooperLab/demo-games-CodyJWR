@@ -1,0 +1,3 @@
+For this project, me and Owen made Stone Bridge Escapades. A game where you play as a suitor trying to get the hand of the princess.
+
+We had different roles, I was more of a creative director with the story and player and enemy sprites along with building the bases of what we would need for our project to work correctly. Owen on the other hand was the artistic designer designing the collectables we collect on our journey, taking my pieces and connecting them to the whole. We both contributed an even amount of coding to the project, mine in the earlier stages and more so Owen towards the later stages.
