@@ -5,7 +5,7 @@ A template repository to publish games
 
 
 # space rocks phase 1
-[Space Rocks](space_rocks)
+[Space Rocks](space-rocks)
 
 # Zombie Survival
 [Zombie Survival](zombie-survival)
