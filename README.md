@@ -13,8 +13,11 @@ A template repository to publish games
 # space rocks phase 2
 [Space Rocks phase 2](space-rocks-phase2)
 
-# Infinite flyer
+# infinite flyer phase 1
 [Project 3 phase 1](if)
+
+# infinite flyer phase 2
+[Project 3 phase 2](project3-phase2)
 
 # Stone Bridge Escapades
 [Stone Bridge Escapades](Stone_Bridge_Escapade_Project)
