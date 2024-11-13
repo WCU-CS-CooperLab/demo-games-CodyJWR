@@ -14,7 +14,7 @@ A template repository to publish games
 [Space Rocks phase 2](space-rocks-phase2)
 
 # infinite flyer phase 1
-[Project 3 phase 1](if)
+[Project 3 phase 1](project3-phase1)
 
 # infinite flyer phase 2
 [Project 3 phase 2](project3-phase2)
