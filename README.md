@@ -2,16 +2,16 @@
 A template repository to publish games
 
 # coin dash phase 1
-[Coin Dash phase 1](project1-phase1)
+[project 1 phase 1](project1-phase1)
 
 # coin dash phase 2
-[Coin Dash phase 2](project1-phase2)
+[project 1 phase 2](project1-phase2)
 
 # space rocks phase 1
-[Space Rocks phase 1](project2-phase1)
+[project 2 phase 1](project2-phase1)
 
 # space rocks phase 2
-[Space Rocks phase 2](project1-phase2)
+[project 2 phase 2](project2-phase2)
 
 # infinite flyer phase 1
 [Project 3 phase 1](project3-phase1)
